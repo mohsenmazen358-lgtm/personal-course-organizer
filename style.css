@@ -4,11 +4,6 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-
-body {
-    background-color: #f4f6f9;
-}
-
 /* Navbar */
 header {
     background-color: #2c3e50;
@@ -119,4 +114,52 @@ main {
 
 footer {
     margin-top: auto;
+}
+body {
+    background: linear-gradient(to right, #f4f6f9, #dfe9f3);
+}
+main {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+h1, h2 {
+    color: #2c3e50;
+}
+nav a {
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #f39c12;
+    transform: scale(1.1);
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+main {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+table {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #eee;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+button {
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.9;
 }
